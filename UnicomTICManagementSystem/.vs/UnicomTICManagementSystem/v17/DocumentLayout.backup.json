@@ -1,0 +1,657 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\view\\timetableform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\view\\timetableform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\view\\timetableform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\view\\timetableform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\model\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\model\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\view\\roomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\view\\roomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\view\\roomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\view\\roomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\view\\markform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\view\\markform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\view\\markform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\view\\markform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\view\\examform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\view\\examform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\view\\examform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\view\\examform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\controller\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\controller\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\controller\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\controller\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\model\\mark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\model\\mark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\model\\timetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\model\\timetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\repositories\\migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\repositories\\migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\view\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\view\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\view\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\view\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\view\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\view\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\view\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\view\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\view\\courseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\view\\courseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\view\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\view\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\controller\\timetablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\controller\\timetablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\controller\\markcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\controller\\markcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\controller\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\controller\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\view\\timetableform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\view\\timetableform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\controller\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\controller\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\view\\subjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\view\\subjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\model\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\model\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\controller\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\controller\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\view\\subjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\view\\subjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\view\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\view\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\controller\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\controller\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\model\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\model\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\repositories\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\repositories\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\view\\courseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\view\\courseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\model\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\model\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|c:\\users\\asus\\documents\\1 unicom tic\\c# final\\unicomticmanagementsystem\\unicomticmanagementsystem\\unicomticmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014430F2-D74F-45B4-AA5F-4EFF24B5CBD9}|UnicomTICManagementSystem\\UnicomTICManagementSystem.csproj|solutionrelative:unicomticmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MarkForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\MarkForm.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\View\\MarkForm.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\MarkForm.cs [Design]",
+              "RelativeToolTip": "UnicomTICManagementSystem\\View\\MarkForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:43:12.009Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MarkForm.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\MarkForm.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\View\\MarkForm.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\MarkForm.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\View\\MarkForm.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwBsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T09:00:09.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TimetableForm.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\TimetableForm.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\View\\TimetableForm.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\TimetableForm.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\View\\TimetableForm.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwDkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T23:51:23.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExamForm.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\ExamForm.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\View\\ExamForm.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\ExamForm.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\View\\ExamForm.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAwH4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T09:00:20.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RoomForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\RoomForm.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\View\\RoomForm.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\RoomForm.cs [Design]",
+              "RelativeToolTip": "UnicomTICManagementSystem\\View\\RoomForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T02:24:07.613Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoomForm.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\RoomForm.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\View\\RoomForm.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\RoomForm.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\View\\RoomForm.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAADIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T02:32:08.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Model\\Room.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\Model\\Room.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Model\\Room.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\Model\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:31:03.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TimetableForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\TimetableForm.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\View\\TimetableForm.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\TimetableForm.cs [Design]",
+              "RelativeToolTip": "UnicomTICManagementSystem\\View\\TimetableForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:43:47.446Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExamForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\ExamForm.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\View\\ExamForm.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\ExamForm.cs [Design]",
+              "RelativeToolTip": "UnicomTICManagementSystem\\View\\ExamForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:42:42.214Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ExamController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Controller\\ExamController.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\Controller\\ExamController.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Controller\\ExamController.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\Controller\\ExamController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:33:13.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Controller\\CourseController.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\Controller\\CourseController.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Controller\\CourseController.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\Controller\\CourseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:32:53.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Mark.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Model\\Mark.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\Model\\Mark.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Model\\Mark.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\Model\\Mark.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T14:50:31.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Timetable.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Model\\Timetable.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\Model\\Timetable.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Model\\Timetable.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\Model\\Timetable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:31:48.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Migration.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Repositories\\Migration.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\Repositories\\Migration.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Repositories\\Migration.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\Repositories\\Migration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T00:30:21.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\MainForm.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\View\\MainForm.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\MainForm.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\View\\MainForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T08:19:37.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\MainForm.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\View\\MainForm.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\MainForm.cs [Design]",
+              "RelativeToolTip": "UnicomTICManagementSystem\\View\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T04:49:40.89Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\LoginForm.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\View\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\LoginForm.cs [Design]",
+              "RelativeToolTip": "UnicomTICManagementSystem\\View\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:26:05.461Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StudentForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\StudentForm.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\View\\StudentForm.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\StudentForm.cs [Design]",
+              "RelativeToolTip": "UnicomTICManagementSystem\\View\\StudentForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:43:28.239Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CourseForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\CourseForm.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\View\\CourseForm.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\CourseForm.cs [Design]",
+              "RelativeToolTip": "UnicomTICManagementSystem\\View\\CourseForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T02:27:41.412Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\LoginForm.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\View\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\LoginForm.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\View\\LoginForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T09:05:05.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MarkController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Controller\\MarkController.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\Controller\\MarkController.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Controller\\MarkController.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\Controller\\MarkController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAcwD0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:33:51.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Controller\\LoginController.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\Controller\\LoginController.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Controller\\LoginController.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\Controller\\LoginController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:33:32.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TimetableController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Controller\\TimetableController.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\Controller\\TimetableController.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Controller\\TimetableController.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\Controller\\TimetableController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwDgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:34:33.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SubjectController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Controller\\SubjectController.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\Controller\\SubjectController.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Controller\\SubjectController.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\Controller\\SubjectController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACIAAAC2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T02:37:36.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SubjectForm.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\SubjectForm.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\View\\SubjectForm.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\SubjectForm.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\View\\SubjectForm.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwDoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T05:03:21.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SubjectForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\SubjectForm.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\View\\SubjectForm.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\SubjectForm.cs [Design]",
+              "RelativeToolTip": "UnicomTICManagementSystem\\View\\SubjectForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T02:06:51.147Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TimetableForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\TimetableForm.Designer.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\View\\TimetableForm.Designer.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\TimetableForm.Designer.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\View\\TimetableForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T15:45:22.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Controller\\StudentController.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\Controller\\StudentController.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Controller\\StudentController.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\Controller\\StudentController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:34:09.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Model\\Subject.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\Model\\Subject.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Model\\Subject.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\Model\\Subject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T15:22:59.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Model\\Student.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\Model\\Student.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Model\\Student.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\Model\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:31:18.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "StudentForm.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\StudentForm.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\View\\StudentForm.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\StudentForm.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\View\\StudentForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T10:07:48.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Exam.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Model\\Exam.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\Model\\Exam.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Model\\Exam.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\Model\\Exam.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:30:36.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Controller\\RoomController.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\Controller\\RoomController.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Controller\\RoomController.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\Controller\\RoomController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T02:37:10.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DatabaseManager.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Repositories\\DatabaseManager.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\Repositories\\DatabaseManager.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Repositories\\DatabaseManager.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\Repositories\\DatabaseManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:29:44.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CourseForm.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\CourseForm.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\View\\CourseForm.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\View\\CourseForm.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\View\\CourseForm.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T09:58:55.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Model\\User.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Model\\User.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:32:05.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Model\\Course.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\Model\\Course.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Model\\Course.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\Model\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:30:23.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "UnicomTICManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\asus\\Documents\\1 Unicom Tic\\C# final\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\UnicomTICManagementSystem\\Program.cs",
+              "RelativeToolTip": "UnicomTICManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:37:07.362Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
