@@ -85,6 +85,8 @@ namespace UnicomTICManagementSystem.View
                 _studentController.AddStudent(student);
                 _loginController.CreatePassword(user);
                 selectedStudentId = -1;
+                textboxstudentname.Text = "";
+
             }
             LoadStudentdata();
             //not work because starting select option

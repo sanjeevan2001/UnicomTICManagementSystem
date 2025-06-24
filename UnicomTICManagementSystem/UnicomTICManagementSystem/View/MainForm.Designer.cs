@@ -76,9 +76,9 @@
             // btnmainsubjects
             // 
             this.btnmainsubjects.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnmainsubjects.Location = new System.Drawing.Point(363, 179);
+            this.btnmainsubjects.Location = new System.Drawing.Point(351, 179);
             this.btnmainsubjects.Name = "btnmainsubjects";
-            this.btnmainsubjects.Size = new System.Drawing.Size(93, 37);
+            this.btnmainsubjects.Size = new System.Drawing.Size(105, 37);
             this.btnmainsubjects.TabIndex = 3;
             this.btnmainsubjects.Text = "Subjects";
             this.btnmainsubjects.UseVisualStyleBackColor = true;
