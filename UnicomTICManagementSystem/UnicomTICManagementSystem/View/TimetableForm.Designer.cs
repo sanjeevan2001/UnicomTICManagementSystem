@@ -38,7 +38,6 @@
             this.textboxtimetabletimeslot = new System.Windows.Forms.TextBox();
             this.comboboxtimetableroom = new System.Windows.Forms.ComboBox();
             this.comboboxtimetablesubject = new System.Windows.Forms.ComboBox();
-            this.labeltimetableerror = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.datatimetable)).BeginInit();
             this.SuspendLayout();
             // 
@@ -77,6 +76,7 @@
             this.btntimetableadd.TabIndex = 3;
             this.btntimetableadd.Text = "Add time slot";
             this.btntimetableadd.UseVisualStyleBackColor = true;
+            this.btntimetableadd.Click += new System.EventHandler(this.btntimetableadd_Click_1);
             // 
             // btntimetableedit
             // 
@@ -86,6 +86,7 @@
             this.btntimetableedit.TabIndex = 4;
             this.btntimetableedit.Text = "Edit";
             this.btntimetableedit.UseVisualStyleBackColor = true;
+            this.btntimetableedit.Click += new System.EventHandler(this.btntimetableedit_Click);
             // 
             // btntimetabledelete
             // 
@@ -95,6 +96,7 @@
             this.btntimetabledelete.TabIndex = 5;
             this.btntimetabledelete.Text = "Delete";
             this.btntimetabledelete.UseVisualStyleBackColor = true;
+            this.btntimetabledelete.Click += new System.EventHandler(this.btntimetabledelete_Click);
             // 
             // datatimetable
             // 
@@ -103,8 +105,11 @@
             this.datatimetable.Name = "datatimetable";
             this.datatimetable.RowHeadersWidth = 51;
             this.datatimetable.RowTemplate.Height = 24;
+            this.datatimetable.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.datatimetable.Size = new System.Drawing.Size(446, 150);
             this.datatimetable.TabIndex = 6;
+            this.datatimetable.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datatimetable_CellClick);
+            this.datatimetable.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datatimetable_CellContentClick);
             // 
             // textboxtimetabletimeslot
             // 
@@ -129,21 +134,11 @@
             this.comboboxtimetablesubject.Size = new System.Drawing.Size(121, 24);
             this.comboboxtimetablesubject.TabIndex = 9;
             // 
-            // labeltimetableerror
-            // 
-            this.labeltimetableerror.AutoSize = true;
-            this.labeltimetableerror.Location = new System.Drawing.Point(441, 108);
-            this.labeltimetableerror.Name = "labeltimetableerror";
-            this.labeltimetableerror.Size = new System.Drawing.Size(35, 16);
-            this.labeltimetableerror.TabIndex = 10;
-            this.labeltimetableerror.Text = "error";
-            // 
             // TimetableForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.labeltimetableerror);
             this.Controls.Add(this.comboboxtimetablesubject);
             this.Controls.Add(this.comboboxtimetableroom);
             this.Controls.Add(this.textboxtimetabletimeslot);
@@ -174,6 +169,5 @@
         private System.Windows.Forms.TextBox textboxtimetabletimeslot;
         private System.Windows.Forms.ComboBox comboboxtimetableroom;
         private System.Windows.Forms.ComboBox comboboxtimetablesubject;
-        private System.Windows.Forms.Label labeltimetableerror;
     }
 }

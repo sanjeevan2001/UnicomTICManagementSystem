@@ -24,6 +24,8 @@ namespace UnicomTICManagementSystem.View
             InitializeComponent();
             comboboxload();
             LoadSubjectdata();
+            
+            //comboboxlecturerload();
         }
 //===========================================
         //public void EditData()
@@ -57,8 +59,6 @@ namespace UnicomTICManagementSystem.View
             Subject subject = new Subject { CourseID = selectedCourseId,SubjectName=textboxsubjectsubjectname.Text };
             subjectController.AddSubject(subject);
             LoadSubjectdata();
-
-
         }
         public void comboboxload()
         {
@@ -71,14 +71,27 @@ namespace UnicomTICManagementSystem.View
             }
             else
             {
-                labelsubjecterror.Text = "No courses found. Please add a course first.";
+                CourseForm courseForm = new CourseForm();this.Hide();courseForm.ShowDialog();  LoadSubjectdata();
             }
         }
+        //public void comboboxlecturerload()
+        //{
+        //    var lecturerList = _courseController.getlecturerList();
+        //    if (lecturerList.Count > 0)
+        //    {
+        //        comboboxsubjectcoursename.DataSource = lecturerList;
+        //        comboboxsubjectcoursename.DisplayMember = "LecturerName";
+        //        comboboxsubjectcoursename.ValueMember = "LecturerID";
+        //    }
+        //    else
+        //    {
+        //        MessageBox.Show("No lecturer found. Please add a lecturer first.");
+        //    }
+        //}
 
         private void comboboxsubjectcoursename_SelectedIndexChanged(object sender, EventArgs e)
         {
             selectedCourseId = (comboboxsubjectcoursename.SelectedIndex+1);
-            labelsubjecterror.Text = comboboxsubjectcoursename.SelectedIndex.ToString();
         }
     }
 }

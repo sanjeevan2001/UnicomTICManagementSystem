@@ -73,6 +73,7 @@
     <Compile Include="Controller\StudentController.cs" />
     <Compile Include="Controller\SubjectController.cs" />
     <Compile Include="Controller\TimetableController.cs" />
+    <Compile Include="Model\Lecturer.cs" />
     <Compile Include="View\CourseForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,11 +122,23 @@
     <Compile Include="View\RoomForm.Designer.cs">
       <DependentUpon>RoomForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\Staff_and_Lecturer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Staff_and_Lecturer.Designer.cs">
+      <DependentUpon>Staff_and_Lecturer.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\StudentForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\StudentForm.Designer.cs">
       <DependentUpon>StudentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\StudentviewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\StudentviewForm.Designer.cs">
+      <DependentUpon>StudentviewForm.cs</DependentUpon>
     </Compile>
     <Compile Include="View\SubjectForm.cs">
       <SubType>Form</SubType>
@@ -166,8 +179,14 @@
     <EmbeddedResource Include="View\RoomForm.resx">
       <DependentUpon>RoomForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\Staff_and_Lecturer.resx">
+      <DependentUpon>Staff_and_Lecturer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\StudentForm.resx">
       <DependentUpon>StudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\StudentviewForm.resx">
+      <DependentUpon>StudentviewForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\SubjectForm.resx">
       <DependentUpon>SubjectForm.cs</DependentUpon>

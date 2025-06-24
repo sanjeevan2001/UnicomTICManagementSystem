@@ -35,10 +35,15 @@
             this.btnstudentadd = new System.Windows.Forms.Button();
             this.btnstudentedit = new System.Windows.Forms.Button();
             this.btnstudentdelete = new System.Windows.Forms.Button();
-            this.labelstudenterror = new System.Windows.Forms.Label();
             this.datastudent = new System.Windows.Forms.DataGridView();
             this.labelstudentpassword = new System.Windows.Forms.Label();
             this.textboxstudentpassword = new System.Windows.Forms.TextBox();
+            this.textboxstudentphonenumber = new System.Windows.Forms.TextBox();
+            this.labelphonenumber = new System.Windows.Forms.Label();
+            this.textboxstudentaddress = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textstudentnic = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.datastudent)).BeginInit();
             this.SuspendLayout();
             // 
@@ -89,7 +94,7 @@
             // 
             // btnstudentedit
             // 
-            this.btnstudentedit.Location = new System.Drawing.Point(82, 370);
+            this.btnstudentedit.Location = new System.Drawing.Point(471, 370);
             this.btnstudentedit.Name = "btnstudentedit";
             this.btnstudentedit.Size = new System.Drawing.Size(75, 23);
             this.btnstudentedit.TabIndex = 5;
@@ -98,26 +103,17 @@
             // 
             // btnstudentdelete
             // 
-            this.btnstudentdelete.Location = new System.Drawing.Point(190, 370);
+            this.btnstudentdelete.Location = new System.Drawing.Point(573, 370);
             this.btnstudentdelete.Name = "btnstudentdelete";
             this.btnstudentdelete.Size = new System.Drawing.Size(75, 23);
             this.btnstudentdelete.TabIndex = 6;
             this.btnstudentdelete.Text = "Delete";
             this.btnstudentdelete.UseVisualStyleBackColor = true;
             // 
-            // labelstudenterror
-            // 
-            this.labelstudenterror.AutoSize = true;
-            this.labelstudenterror.Location = new System.Drawing.Point(112, 400);
-            this.labelstudenterror.Name = "labelstudenterror";
-            this.labelstudenterror.Size = new System.Drawing.Size(125, 16);
-            this.labelstudenterror.TabIndex = 7;
-            this.labelstudenterror.Text = "error message here";
-            // 
             // datastudent
             // 
             this.datastudent.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.datastudent.Location = new System.Drawing.Point(53, 178);
+            this.datastudent.Location = new System.Drawing.Point(79, 199);
             this.datastudent.Name = "datastudent";
             this.datastudent.RowHeadersWidth = 51;
             this.datastudent.RowTemplate.Height = 24;
@@ -140,15 +136,68 @@
             this.textboxstudentpassword.Size = new System.Drawing.Size(100, 22);
             this.textboxstudentpassword.TabIndex = 10;
             // 
+            // textboxstudentphonenumber
+            // 
+            this.textboxstudentphonenumber.Location = new System.Drawing.Point(400, 82);
+            this.textboxstudentphonenumber.Name = "textboxstudentphonenumber";
+            this.textboxstudentphonenumber.Size = new System.Drawing.Size(100, 22);
+            this.textboxstudentphonenumber.TabIndex = 14;
+            // 
+            // labelphonenumber
+            // 
+            this.labelphonenumber.AutoSize = true;
+            this.labelphonenumber.Location = new System.Drawing.Point(296, 88);
+            this.labelphonenumber.Name = "labelphonenumber";
+            this.labelphonenumber.Size = new System.Drawing.Size(97, 16);
+            this.labelphonenumber.TabIndex = 13;
+            this.labelphonenumber.Text = "Phone Number";
+            // 
+            // textboxstudentaddress
+            // 
+            this.textboxstudentaddress.Location = new System.Drawing.Point(148, 130);
+            this.textboxstudentaddress.Name = "textboxstudentaddress";
+            this.textboxstudentaddress.Size = new System.Drawing.Size(100, 22);
+            this.textboxstudentaddress.TabIndex = 12;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(53, 136);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(58, 16);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Address";
+            // 
+            // textstudentnic
+            // 
+            this.textstudentnic.Location = new System.Drawing.Point(395, 133);
+            this.textstudentnic.Name = "textstudentnic";
+            this.textstudentnic.Size = new System.Drawing.Size(100, 22);
+            this.textstudentnic.TabIndex = 16;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(296, 130);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(29, 16);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "NIC";
+            // 
             // StudentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textstudentnic);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textboxstudentphonenumber);
+            this.Controls.Add(this.labelphonenumber);
+            this.Controls.Add(this.textboxstudentaddress);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.textboxstudentpassword);
             this.Controls.Add(this.labelstudentpassword);
             this.Controls.Add(this.datastudent);
-            this.Controls.Add(this.labelstudenterror);
             this.Controls.Add(this.btnstudentdelete);
             this.Controls.Add(this.btnstudentedit);
             this.Controls.Add(this.btnstudentadd);
@@ -173,9 +222,14 @@
         private System.Windows.Forms.Button btnstudentadd;
         private System.Windows.Forms.Button btnstudentedit;
         private System.Windows.Forms.Button btnstudentdelete;
-        private System.Windows.Forms.Label labelstudenterror;
         private System.Windows.Forms.DataGridView datastudent;
         private System.Windows.Forms.Label labelstudentpassword;
         private System.Windows.Forms.TextBox textboxstudentpassword;
+        private System.Windows.Forms.TextBox textboxstudentphonenumber;
+        private System.Windows.Forms.Label labelphonenumber;
+        private System.Windows.Forms.TextBox textboxstudentaddress;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textstudentnic;
+        private System.Windows.Forms.Label label1;
     }
 }

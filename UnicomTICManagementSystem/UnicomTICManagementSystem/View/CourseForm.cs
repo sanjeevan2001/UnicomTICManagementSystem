@@ -39,13 +39,12 @@ namespace UnicomTICManagementSystem.View
             datacourse.Columns["CourseID"].Visible = false;
         }
 
+
         private void btncourseadd_Click(object sender, EventArgs e)
         {
             Course course = new Course { CourseName = textboxcoursename.Text.Trim() };
             CourseController courseController = new CourseController();
-            bool addresult = courseController.addCourse(course);
-            if (!addresult) { labelcourseerror.Text = "Courses couldn't be added."; }
-            else { labelcourseerror.Text = "Course added successfully!"; }
+            courseController.addCourse(course);
             LoadCoursedata();
         }
 
@@ -58,7 +57,6 @@ namespace UnicomTICManagementSystem.View
                 {
                     textboxcoursecourseID.Text = selectedrow.CourseID.ToString();
                     textboxcoursename.Text = selectedrow.CourseName;
-                   
                 }
             }
         }

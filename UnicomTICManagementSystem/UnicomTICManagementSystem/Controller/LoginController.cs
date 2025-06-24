@@ -19,7 +19,7 @@ namespace UnicomTICManagementSystem.Controller
             {
                 //LoginForm loginForm = new LoginForm;
 
-                Console.WriteLine("Invalid user or username.");
+                MessageBox.Show("Login failed. Check your username and password.");
                 return roles; //empty list
             }
             using (var conn = Repositories.DatabaseManager.GetConnection())
@@ -40,7 +40,6 @@ namespace UnicomTICManagementSystem.Controller
                         Password = reader["Password"].ToString(),
                         Role = reader["Role"].ToString()
                     };
-
                     roles.Add(foundUser);
                 }
             }
@@ -58,14 +57,29 @@ namespace UnicomTICManagementSystem.Controller
                     cmd.Parameters.AddWithValue("@password", user.Password);
                     cmd.Parameters.AddWithValue("@role", user.Role);
                     cmd.ExecuteNonQuery();
-                    //return true
+                    MessageBox.Show("successfully");
                 }
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);//return false }
-
             }
+        }
+
+        internal void AddLecturer(Lecturer lecturer)
+        {
+            try {
+                using (var connection = DatabaseManager.GetConnection()) 
+                {
+                    SQLiteCommand cmd = new SQLiteCommand("INSERT INTO Lecturers (Lecturername,Address,PhoneNumber) VALUES (@lecturername,@address,@phonenumber)", connection);
+                    cmd.Parameters.AddWithValue("@lecturername", lecturer.LecturerName);
+                    cmd.Parameters.AddWithValue("@address", lecturer.Address);
+                    cmd.Parameters.AddWithValue("@phonenumber", lecturer.PhoneNumber);
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("record add successfully.");
+                }
+            }
+            catch(Exception ex) { MessageBox.Show(ex.Message); }
         }
     }
 }

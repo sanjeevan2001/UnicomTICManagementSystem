@@ -18,11 +18,14 @@ namespace UnicomTICManagementSystem.Controller
 
                 using (var connection = DatabaseManager.GetConnection())
                 {
-                    SQLiteCommand command = new SQLiteCommand("INSERT INTO Students (Name,CourseID) VALUES (@name,@courseID)",connection);
+                    SQLiteCommand command = new SQLiteCommand("INSERT INTO Students (Name,CourseID,Address,PhoneNumber,NIC) VALUES (@name,@courseID,@address,@phonenumber,@nic)",connection);
                     command.Parameters.AddWithValue("@name",student.Name);
                     command.Parameters.AddWithValue("@courseID", student.CourseID);
+                    command.Parameters.AddWithValue("@address", student.Address);
+                    command.Parameters.AddWithValue("@phonenumber", student.PhoneNumber);
+                    command.Parameters.AddWithValue("@nic", student.NIC);
                     command.ExecuteNonQuery();
-                   // MessageBox.Show("");
+                    MessageBox.Show("");
                 }
             }
             catch (Exception ex) { MessageBox.Show("Error" + ex.Message); }
@@ -34,11 +37,11 @@ namespace UnicomTICManagementSystem.Controller
             List<Student> studentList = new List<Student>();
             using (var connection = DatabaseManager.GetConnection())
             {
-                SQLiteCommand cmd = new SQLiteCommand("select st.StudentID,st.Name,cou.CourseID,cou.CourseName from Students st Left Join Courses cou on cou.CourseID=st.StudentID ", connection);
+                SQLiteCommand cmd = new SQLiteCommand("select st.StudentID,st.Name,st.Address,st.PhoneNumber,st.NIC,cou.CourseID,cou.CourseName from Students st Left Join Courses cou on cou.CourseID=st.StudentID ", connection);
                 var reader = cmd.ExecuteReader();
-                while (reader.Read()) { studentList.Add(new Student { StudentId = reader.GetInt32(0), Name = reader.GetString(1),
-                    CourseID = reader.IsDBNull(2) ? (int?)null : reader.GetInt32(2),
-                    CourseName = reader.IsDBNull(3) ? null : reader.GetString(3)
+                while (reader.Read()) { studentList.Add(new Student { StudentId = reader.GetInt32(0), Name = reader.GetString(1),Address=reader.GetString(2),PhoneNumber=reader.GetString(3),NIC=reader.GetString(4),
+                    CourseID = reader.IsDBNull(5) ? (int?)null : reader.GetInt32(5),
+                    CourseName = reader.IsDBNull(6) ? null : reader.GetString(6)
                 }); }
             }
 

@@ -12,6 +12,7 @@ namespace UnicomTICManagementSystem.Controller
 {
     internal class ExamController
     {
+
         public List<Subject> GetSubjectList()
         {
             List<Subject> subjectList = new List<Subject>();

@@ -15,6 +15,7 @@ namespace UnicomTICManagementSystem.Repositories
             SQLiteConnection conn = new SQLiteConnection(stringConnection);
             conn.Open();
             return conn;
+
         }
     }
 }

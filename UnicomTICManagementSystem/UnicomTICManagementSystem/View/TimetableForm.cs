@@ -19,6 +19,7 @@ namespace UnicomTICManagementSystem.View
         TimetableController timetableController;
         public int selectedSubjectID = -1;
         public int selectedRoomID = -1;
+        public int selectedTimetableID = -1;
         public TimetableForm()
         {
             timetableController = new TimetableController();
@@ -31,18 +32,18 @@ namespace UnicomTICManagementSystem.View
 
 
         //==============================================================
-        //public void EditData()
-        //{
-        //    RoomController editController = new RoomController();
-        //    Room room = new Room { RoomName = textboxroomroomname.Text, RoomId = int.Parse(textroomroomID.Text), RoomType = textboxroomroomtype.Text };
-        //    editController.EditRoomData(room);
-        //}
-        //public void DeleteData()
-        //{
-        //    RoomController deleteController = new RoomController();
-        //    Room room = new Room { RoomId = int.Parse(textroomroomID.Text) };
-        //    deleteController.DeleteRoomData(room);
-        //}
+        public void EditData()
+        {
+            TimetableController editController = new TimetableController();
+            Timetable timetable = new Timetable { SubjectID = int.Parse(comboboxtimetablesubject.Text), RoomID = int.Parse(comboboxtimetableroom.Text), TimeSlot = textboxtimetabletimeslot.Text, TimetableID = selectedTimetableID };
+            editController.EditRoomData(timetable);
+        }
+        public void DeleteData()
+        {
+            TimetableController deleteController = new TimetableController();
+            Timetable deletetimetable = new Timetable { TimetableID = selectedTimetableID };
+            deleteController.DeleteTimetableData(deletetimetable);
+        }
         public void LoadTimetabledata()
         {
             TimetableController gettimetabledata = new TimetableController();
@@ -64,7 +65,7 @@ namespace UnicomTICManagementSystem.View
             }
             else
             {
-                labeltimetableerror.Text = "No subject found. Please add a subject first.";
+                SubjectForm subjectForm = new SubjectForm();this.Hide();subjectForm.ShowDialog();LoadTimetabledata();
             }
         }
         public void loadRoom() 
@@ -76,7 +77,7 @@ namespace UnicomTICManagementSystem.View
                 comboboxtimetableroom.DisplayMember = "RoomName";
                 comboboxtimetableroom.ValueMember = "RoomId";
             }
-            else { labeltimetableerror.Text = "No room found. Please add a room first."; }
+            else { RoomForm roomForm = new RoomForm();this.Hide();roomForm.ShowDialog();LoadTimetabledata(); }
         }
 
 
@@ -96,6 +97,44 @@ namespace UnicomTICManagementSystem.View
             Timetable timetable = new Timetable {SubjectID = selectedSubjectID, RoomID=selectedRoomID,TimeSlot=textboxtimetabletimeslot.Text };
             timetableController.AddTimetable(timetable);
             LoadTimetabledata();
+        }
+
+        private void btntimetableadd_Click_1(object sender, EventArgs e)
+        {
+            Timetable timetable = new Timetable { SubjectID = selectedSubjectID, RoomID = selectedRoomID, TimeSlot = textboxtimetabletimeslot.Text };
+            timetableController.AddTimetable(timetable);
+            LoadTimetabledata();
+        }
+
+        private void datatimetable_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
+            
+        }
+
+        private void btntimetableedit_Click(object sender, EventArgs e)
+        {
+            EditData();
+            LoadTimetabledata();
+        }
+
+        private void btntimetabledelete_Click(object sender, EventArgs e)
+        {
+            DeleteData();
+            LoadTimetabledata();
+        }
+
+        private void datatimetable_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                var selectedrow = datatimetable.Rows[e.RowIndex].DataBoundItem as Timetable;
+                if (selectedrow != null)
+                {
+                    selectedTimetableID = selectedrow.TimetableID;
+                    
+                }
+            }
         }
     }
 }

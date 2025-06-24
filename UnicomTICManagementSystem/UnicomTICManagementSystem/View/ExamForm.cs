@@ -57,7 +57,6 @@ namespace UnicomTICManagementSystem.View
         //==================================
 
 
-
         public void loadsubject() 
         {
             var subjectList = examcontroller.GetSubjectList();
@@ -69,7 +68,7 @@ namespace UnicomTICManagementSystem.View
             }
             else
             {
-                labelexamerror.Text = "No courses found. Please add a course first.";
+                CourseForm courseForm = new CourseForm(); this.Hide();courseForm.ShowDialog(); Loadexamdata();
             }
         }
 
@@ -102,15 +101,13 @@ namespace UnicomTICManagementSystem.View
             {
                 var selectedrow = dataexamview.Rows[e.RowIndex].DataBoundItem as Exam;
                
-                    textboxexamexamid.Text = selectedrow.ExamID.ToString();
-                    textboxexamexamname.Text = selectedrow.ExamName;
-                    textboxexamsubjectid.Text = selectedrow.SubjectID.ToString();
-                    comboboxexamsubject.Text = selectedrow.SubjectName;
-
-
-                    // Select the matching subject in the ComboBox
-                   // comboboxexamsubject.SelectedValue = selectedrow.SubjectID;
+                textboxexamexamid.Text = selectedrow.ExamID.ToString();
+                textboxexamexamname.Text = selectedrow.ExamName;
+                textboxexamsubjectid.Text = selectedrow.SubjectID.ToString();
+                comboboxexamsubject.Text = selectedrow.SubjectName;
                 
+
+
             }
         }
 

@@ -12,14 +12,14 @@ namespace UnicomTICManagementSystem.Controller
 {
     internal class CourseController
     {
-        public bool addCourse(Course course)
+     
+        public void addCourse(Course course)
         {
             try
             {
                 if (course == null || string.IsNullOrWhiteSpace(course.CourseName))
                 {
-                    Console.WriteLine("Invalid course data.");
-                    return false;
+                    MessageBox.Show("Invalid course data.");
                 }
                 using (var conn = DatabaseManager.GetConnection())
                 {
@@ -27,16 +27,10 @@ namespace UnicomTICManagementSystem.Controller
                     SQLiteCommand cmd = new SQLiteCommand(query, conn);
                     cmd.Parameters.AddWithValue("@course", course.CourseName);
                     cmd.ExecuteNonQuery();
-                    return true;
+                    MessageBox.Show( "Course added successfully!"); 
                 }
-
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Error: " + ex.Message);
-                return false;
-            }
-
+            catch (Exception ex){MessageBox.Show("Error: " + ex.Message);  }
         }
 
         public List<Course> getCourseList() 
@@ -97,6 +91,23 @@ namespace UnicomTICManagementSystem.Controller
                 while (reader.Read()) { courseList.Add(new Course { CourseID = reader.GetInt32(0), CourseName = reader.GetString(1) }); }
             }
             return courseList;
+        }
+
+        public List<Lecturer> getlecturerList()
+        {
+            List<Lecturer> lecturers = new List<Lecturer>();
+            try
+            {
+                using (var connection = DatabaseManager.GetConnection())
+                {
+                    SQLiteCommand cmd = new SQLiteCommand("select LecturerID,LecturerName from Lecturers", connection);
+                    var reader = cmd.ExecuteReader();
+                    lecturers.Add(new Lecturer { LecturerID = reader.GetInt32(0), LecturerName = reader.GetString(1) }); MessageBox.Show("...");
+                }
+            }
+            catch (Exception ex) { MessageBox.Show(ex.Message); }
+            
+            return lecturers;
         }
     }
 }

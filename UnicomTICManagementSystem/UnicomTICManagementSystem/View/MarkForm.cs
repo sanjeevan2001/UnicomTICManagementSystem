@@ -77,7 +77,7 @@ namespace UnicomTICManagementSystem.View
                 }
                 else
                 {
-                    labelmarkerror.Text = "No courses found. Please add a course first.";
+                    MarkForm markForm=new MarkForm();this.Hide();markForm.ShowDialog(); LoadRoomdata();
                 }
             }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
@@ -95,7 +95,7 @@ namespace UnicomTICManagementSystem.View
                 }
                 else
                 {
-                    labelmarkerror.Text = "No courses found. Please add a course first.";
+                    StudentForm studentForm=new StudentForm();this.Hide();studentForm.ShowDialog();this.Show(); LoadRoomdata();
                 }
             }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
@@ -108,6 +108,11 @@ namespace UnicomTICManagementSystem.View
             if (int.TryParse(textboxmarkscore.Text, out score))
             { Mark mark = new Mark { StudentID = selectedStudentId, ExamID = selectedexamId, Score = score }; markcontroller.Addmark(mark); }
             
+        }
+
+        private void MarkForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -12,6 +12,7 @@ namespace UnicomTICManagementSystem.Controller
 {
     internal class TimetableController
     {
+
         public List<Room> GetRoomList()
         {
             List<Room> subjectList = new List<Room>();
@@ -58,6 +59,44 @@ namespace UnicomTICManagementSystem.Controller
             }
 
             return timetableList;
+        }
+
+        public void EditRoomData(Timetable timetable)
+        {
+            
+            try
+            {
+                using (var connection = DatabaseManager.GetConnection())
+                {
+                    SQLiteCommand cmd = new SQLiteCommand("UPDATE Timetables SET SubjectID = @subjectid, TimeSlot = @timeslot, RoomID=@roomid WHERE TimetableID = @timetableID", connection);
+                    cmd.Parameters.AddWithValue("@timetableID", timetable.TimetableID);
+                    cmd.Parameters.AddWithValue("@subjectid", timetable.SubjectID);
+                    cmd.Parameters.AddWithValue("@timeslot", timetable.TimeSlot);
+                    cmd.Parameters.AddWithValue("@roomid", timetable.RoomID);
+
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Edit successfully");
+
+                }
+            }
+            catch (Exception ex) { MessageBox.Show(ex.Message); }
+            
+        }
+
+        internal void DeleteTimetableData(Timetable deletetimetable)
+        {
+            try
+            {
+                using (var connection = DatabaseManager.GetConnection())
+                {
+                    SQLiteCommand cmd = new SQLiteCommand("Delete from Timetables WHERE TimetableID = @timetableid", connection);
+                    cmd.Parameters.AddWithValue("@timetableid", deletetimetable.TimetableID);
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Delete successfully");
+
+                }
+            }
+            catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
     }
 }

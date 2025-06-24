@@ -50,6 +50,7 @@ namespace UnicomTICManagementSystem.View
             var studentData = getstudentdata.GetStudentData();
             datastudent.DataSource = studentData;
             datastudent.Columns["CourseID"].Visible = false;
+            datastudent.Columns["StudentID"].Visible = false;
         }
         //===================================================================
         public void comboboxload()
@@ -62,7 +63,10 @@ namespace UnicomTICManagementSystem.View
             }
             else 
             {
-                labelstudenterror.Text = "No courses found. Please add a course first.";
+                this.Hide();
+                CourseForm courseform = new CourseForm();
+                courseform.ShowDialog();
+                LoadStudentdata();
             }
         }
 
@@ -76,7 +80,7 @@ namespace UnicomTICManagementSystem.View
             if (selectedStudentId > 0)
             {
                 //labelstudenterror.Text = comboboxstudentcourse.SelectedValue.ToString(); 
-                Student student = new Student { CourseID = selectedStudentId ,Name=textboxstudentname.Text,};
+                Student student = new Student { CourseID = selectedStudentId ,Name=textboxstudentname.Text,Address=textboxstudentaddress.Text,PhoneNumber=textboxstudentphonenumber.Text,NIC=textstudentnic.Text};
                 User user = new User { UserName=textboxstudentname.Text,Password=textboxstudentpassword.Text,Role="Student" };
                 _studentController.AddStudent(student);
                 _loginController.CreatePassword(user);
@@ -91,7 +95,7 @@ namespace UnicomTICManagementSystem.View
         private void comboboxstudentcourse_SelectedIndexChanged(object sender, EventArgs e)
         {
             selectedStudentId = comboboxstudentcourse.SelectedIndex+1;
-            labelstudenterror.Text = comboboxstudentcourse.SelectedValue.ToString();
+            
         }
 
         private void textboxstudentname_TextChanged(object sender, EventArgs e)

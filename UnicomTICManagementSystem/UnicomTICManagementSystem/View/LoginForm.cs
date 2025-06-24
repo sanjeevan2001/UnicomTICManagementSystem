@@ -19,7 +19,6 @@ namespace UnicomTICManagementSystem
         public LoginForm()
         {
             InitializeComponent();
-
         }
 
         private void LoginForm_Load(object sender, EventArgs e)
@@ -29,8 +28,6 @@ namespace UnicomTICManagementSystem
 
         private void btnloginlogin_Click(object sender, EventArgs e)
         {
-            //mainForm.ShowDialog();
-            lableloginerror.Text = "";
             lableloginerror.Visible = false;
 
 
@@ -39,31 +36,30 @@ namespace UnicomTICManagementSystem
                 UserName = textboxloginusername.Text.Trim(),
                 Password = textboxloginpassword.Text.Trim(),
             };
+            textboxloginusername.Text = "";
+            textboxloginpassword.Text = "";
 
             //check role
             var check_user = LoginController.checkrole(user);
-            if (check_user.Count == 1)
+            
+            if (check_user.Count > 0)
             {
 
                 string role = check_user[0].Role; //============
                 string name = check_user[0].UserName;
-                Console.WriteLine("Logged in role: " + check_user[0].UserName);
-
-                MainForm mainForm = new MainForm();
-                this.Hide();
-                mainForm.SetWelcomeText(name, role);
-                mainForm.ShowDialog();
-                this.Show();
-
-
+                if (role == "Student") { StudentviewForm studentview = new StudentviewForm();this.Hide();studentview.SetWelcomeText(name); studentview.ShowDialog();this.Show(); }
+                else { 
+                    MainForm mainForm = new MainForm();
+                    this.Hide();
+                    mainForm.SetWelcomeText(name, role);
+                    mainForm.ShowDialog();
+                    
+                }
             }
             else
             {
                 lableloginerror.Text = "Check your username and password.";
-
                 lableloginerror.Visible = true;
-                //MessageBox.Show("Login failed. Check your username and password.");
-
             }
 
         }

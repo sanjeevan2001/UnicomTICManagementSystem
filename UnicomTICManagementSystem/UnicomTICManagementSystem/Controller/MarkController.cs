@@ -10,6 +10,7 @@ using UnicomTICManagementSystem.Repositories;
 
 namespace UnicomTICManagementSystem.Controller
 {
+
     internal class MarkController
     {
         public List<Exam> GetExamList()
@@ -46,10 +47,10 @@ namespace UnicomTICManagementSystem.Controller
                 }
                 catch (Exception ex) { MessageBox.Show(ex.Message); }
             }
-            else { MessageBox.Show("Enter the correct score.");return; }
+            else { MessageBox.Show("Score must be 0 to 100.");return; }
         }
 
-        internal List<Mark> GetMarkData()
+        public List<Mark> GetMarkData()
         {
             List<Mark> markList = new List<Mark>();
             using (var connection = DatabaseManager.GetConnection())
@@ -62,5 +63,11 @@ namespace UnicomTICManagementSystem.Controller
             return markList;
 
         }
+
+       
+
+
+
+
     }
 }

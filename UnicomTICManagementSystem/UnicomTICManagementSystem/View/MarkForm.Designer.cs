@@ -38,9 +38,6 @@
             this.btnmarkedit = new System.Windows.Forms.Button();
             this.buttonmarkdelete = new System.Windows.Forms.Button();
             this.datamark = new System.Windows.Forms.DataGridView();
-            this.labelmarkerror = new System.Windows.Forms.Label();
-            this.textboxmarkstudentid = new System.Windows.Forms.TextBox();
-            this.textboxmarkexamid = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.datamark)).BeginInit();
             this.SuspendLayout();
             // 
@@ -140,37 +137,11 @@
             this.datamark.Size = new System.Drawing.Size(497, 150);
             this.datamark.TabIndex = 9;
             // 
-            // labelmarkerror
-            // 
-            this.labelmarkerror.AutoSize = true;
-            this.labelmarkerror.Location = new System.Drawing.Point(238, 384);
-            this.labelmarkerror.Name = "labelmarkerror";
-            this.labelmarkerror.Size = new System.Drawing.Size(35, 16);
-            this.labelmarkerror.TabIndex = 10;
-            this.labelmarkerror.Text = "error";
-            // 
-            // textboxmarkstudentid
-            // 
-            this.textboxmarkstudentid.Location = new System.Drawing.Point(526, 48);
-            this.textboxmarkstudentid.Name = "textboxmarkstudentid";
-            this.textboxmarkstudentid.Size = new System.Drawing.Size(100, 22);
-            this.textboxmarkstudentid.TabIndex = 11;
-            // 
-            // textboxmarkexamid
-            // 
-            this.textboxmarkexamid.Location = new System.Drawing.Point(526, 91);
-            this.textboxmarkexamid.Name = "textboxmarkexamid";
-            this.textboxmarkexamid.Size = new System.Drawing.Size(100, 22);
-            this.textboxmarkexamid.TabIndex = 12;
-            // 
             // MarkForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textboxmarkexamid);
-            this.Controls.Add(this.textboxmarkstudentid);
-            this.Controls.Add(this.labelmarkerror);
             this.Controls.Add(this.datamark);
             this.Controls.Add(this.buttonmarkdelete);
             this.Controls.Add(this.btnmarkedit);
@@ -183,6 +154,7 @@
             this.Controls.Add(this.labelmarkstudent);
             this.Name = "MarkForm";
             this.Text = "MarkForm";
+            this.Load += new System.EventHandler(this.MarkForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.datamark)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -201,8 +173,5 @@
         private System.Windows.Forms.Button btnmarkedit;
         private System.Windows.Forms.Button buttonmarkdelete;
         private System.Windows.Forms.DataGridView datamark;
-        private System.Windows.Forms.Label labelmarkerror;
-        private System.Windows.Forms.TextBox textboxmarkstudentid;
-        private System.Windows.Forms.TextBox textboxmarkexamid;
     }
 }

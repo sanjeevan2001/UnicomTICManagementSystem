@@ -36,7 +36,7 @@
             this.btnroomadd = new System.Windows.Forms.Button();
             this.btnroomedit = new System.Windows.Forms.Button();
             this.btnroomdelete = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
+            this.labelroomroomid = new System.Windows.Forms.Label();
             this.textroomroomID = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataroom)).BeginInit();
             this.SuspendLayout();
@@ -121,14 +121,14 @@
             this.btnroomdelete.UseVisualStyleBackColor = true;
             this.btnroomdelete.Click += new System.EventHandler(this.btnroomdelete_Click);
             // 
-            // label3
+            // labelroomroomid
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(133, 346);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 16);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Room ID";
+            this.labelroomroomid.AutoSize = true;
+            this.labelroomroomid.Location = new System.Drawing.Point(133, 346);
+            this.labelroomroomid.Name = "labelroomroomid";
+            this.labelroomroomid.Size = new System.Drawing.Size(60, 16);
+            this.labelroomroomid.TabIndex = 8;
+            this.labelroomroomid.Text = "Room ID";
             // 
             // textroomroomID
             // 
@@ -143,7 +143,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.textroomroomID);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.labelroomroomid);
             this.Controls.Add(this.btnroomdelete);
             this.Controls.Add(this.btnroomedit);
             this.Controls.Add(this.btnroomadd);
@@ -171,7 +171,7 @@
         private System.Windows.Forms.Button btnroomadd;
         private System.Windows.Forms.Button btnroomedit;
         private System.Windows.Forms.Button btnroomdelete;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label labelroomroomid;
         private System.Windows.Forms.TextBox textroomroomID;
     }
 }

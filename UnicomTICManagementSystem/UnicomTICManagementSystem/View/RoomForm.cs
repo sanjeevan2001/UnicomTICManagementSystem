@@ -18,6 +18,7 @@ namespace UnicomTICManagementSystem.View
         {
             InitializeComponent();
             LoadRoomdata();
+            labelroomroomid.Visible = false;
         }
 
         private void btnroomadd_Click(object sender, EventArgs e)
@@ -63,23 +64,11 @@ namespace UnicomTICManagementSystem.View
                     textroomroomID.Text = selectedrow.RoomId.ToString();
                     textboxroomroomname.Text = selectedrow.RoomName;
                     textboxroomroomtype.Text = selectedrow.RoomType;
+                    textroomroomID.Visible = false;
+                    
                 }
             }
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         private void dataroom_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {

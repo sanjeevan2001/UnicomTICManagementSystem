@@ -14,6 +14,7 @@ namespace UnicomTICManagementSystem.Controller
     {
         public void AddSubject(Subject subject)
         {
+
             try 
             {
                 using (var connection = DatabaseManager.GetConnection()) 

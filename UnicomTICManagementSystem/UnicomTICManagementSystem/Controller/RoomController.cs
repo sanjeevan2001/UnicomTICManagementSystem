@@ -18,6 +18,7 @@ namespace UnicomTICManagementSystem.Controller
 
                 using (var connection = DatabaseManager.GetConnection())
                 {
+
                     SQLiteCommand command = new SQLiteCommand("insert into Rooms (RoomName,RoomType) values (@roomname,@roomtype)",connection);
                     command.Parameters.AddWithValue("@roomname",room.RoomName);
                     command.Parameters.AddWithValue("@roomtype", room.RoomType);
@@ -64,7 +65,7 @@ namespace UnicomTICManagementSystem.Controller
                     SQLiteCommand cmd = new SQLiteCommand("Delete from Rooms WHERE RoomID = @roomID", connection);
                     cmd.Parameters.AddWithValue("@roomID", room1.RoomId);
                     cmd.ExecuteNonQuery();
-                    MessageBox.Show("Edit successfully");
+                    MessageBox.Show("Delete successfully");
 
                 }
             }

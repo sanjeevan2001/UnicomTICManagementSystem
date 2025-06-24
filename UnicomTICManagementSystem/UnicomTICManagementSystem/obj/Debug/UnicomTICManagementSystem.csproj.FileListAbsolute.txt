@@ -25,3 +25,5 @@ C:\Users\asus\Documents\1 Unicom Tic\C# final\UnicomTICManagementSystem\UnicomTI
 C:\Users\asus\Documents\1 Unicom Tic\C# final\UnicomTICManagementSystem\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.TimetableForm.resources
 C:\Users\asus\Documents\1 Unicom Tic\C# final\UnicomTICManagementSystem\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.RoomForm.resources
 C:\Users\asus\Documents\1 Unicom Tic\C# final\UnicomTICManagementSystem\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.SubjectForm.resources
+C:\Users\asus\Documents\1 Unicom Tic\C# final\UnicomTICManagementSystem\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.Staff_and_Lecturer.resources
+C:\Users\asus\Documents\1 Unicom Tic\C# final\UnicomTICManagementSystem\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.View.StudentviewForm.resources

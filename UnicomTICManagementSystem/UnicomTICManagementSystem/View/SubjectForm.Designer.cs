@@ -36,7 +36,6 @@
             this.btnsubjectadd = new System.Windows.Forms.Button();
             this.btnsubjectedit = new System.Windows.Forms.Button();
             this.btnsubjectdelete = new System.Windows.Forms.Button();
-            this.labelsubjecterror = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.datasubject)).BeginInit();
             this.SuspendLayout();
             // 
@@ -77,7 +76,7 @@
             // datasubject
             // 
             this.datasubject.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.datasubject.Location = new System.Drawing.Point(85, 139);
+            this.datasubject.Location = new System.Drawing.Point(74, 201);
             this.datasubject.Name = "datasubject";
             this.datasubject.RowHeadersWidth = 51;
             this.datasubject.RowTemplate.Height = 24;
@@ -96,7 +95,7 @@
             // 
             // btnsubjectedit
             // 
-            this.btnsubjectedit.Location = new System.Drawing.Point(118, 311);
+            this.btnsubjectedit.Location = new System.Drawing.Point(161, 405);
             this.btnsubjectedit.Name = "btnsubjectedit";
             this.btnsubjectedit.Size = new System.Drawing.Size(75, 23);
             this.btnsubjectedit.TabIndex = 7;
@@ -105,28 +104,18 @@
             // 
             // btnsubjectdelete
             // 
-            this.btnsubjectdelete.Location = new System.Drawing.Point(447, 311);
+            this.btnsubjectdelete.Location = new System.Drawing.Point(441, 405);
             this.btnsubjectdelete.Name = "btnsubjectdelete";
             this.btnsubjectdelete.Size = new System.Drawing.Size(75, 23);
             this.btnsubjectdelete.TabIndex = 8;
             this.btnsubjectdelete.Text = "Delete";
             this.btnsubjectdelete.UseVisualStyleBackColor = true;
             // 
-            // labelsubjecterror
-            // 
-            this.labelsubjecterror.AutoSize = true;
-            this.labelsubjecterror.Location = new System.Drawing.Point(295, 378);
-            this.labelsubjecterror.Name = "labelsubjecterror";
-            this.labelsubjecterror.Size = new System.Drawing.Size(35, 16);
-            this.labelsubjecterror.TabIndex = 9;
-            this.labelsubjecterror.Text = "error";
-            // 
             // SubjectForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.labelsubjecterror);
             this.Controls.Add(this.btnsubjectdelete);
             this.Controls.Add(this.btnsubjectedit);
             this.Controls.Add(this.btnsubjectadd);
@@ -153,6 +142,5 @@
         private System.Windows.Forms.Button btnsubjectadd;
         private System.Windows.Forms.Button btnsubjectedit;
         private System.Windows.Forms.Button btnsubjectdelete;
-        private System.Windows.Forms.Label labelsubjecterror;
     }
 }
